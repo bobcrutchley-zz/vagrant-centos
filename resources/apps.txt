@@ -1,0 +1,17 @@
+wget
+java
+maven
+unzip
+git
+curl
+wget
+bzip2
+gzip
+unzip
+python
+binutils
+bc
+tmux
+glibc.i686
+libstdc++
+libstdc++.i686

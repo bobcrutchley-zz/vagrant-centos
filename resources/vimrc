@@ -1,0 +1,4 @@
+set tabstop=4
+set bg=dark
+set number
+execute pathogen#infect()
