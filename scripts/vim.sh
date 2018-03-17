@@ -18,3 +18,6 @@ git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
 git clone https://github.com/tfnico/vim-gradle ~/.vim/bundle/vim-gradle
 # vim-groovy
 git clone https://github.com/thecodesmith/vim-groovy ~/.vim/bundle/vim-groovy
+# vim-surround
+git clone https://github.com/tpope/vim-surround ~/.vim/bundle/vim-surround
+
