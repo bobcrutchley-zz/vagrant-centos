@@ -4,8 +4,6 @@ rm -rf ~/.vim
 rm -rf ~/.vim/autoload
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-# vimrc
-cp -f /vagrant/resources/vimrc ~/.vimrc
 #####################
 # Plugins and Bundles
 #####################
@@ -20,4 +18,16 @@ git clone https://github.com/tfnico/vim-gradle ~/.vim/bundle/vim-gradle
 git clone https://github.com/thecodesmith/vim-groovy ~/.vim/bundle/vim-groovy
 # vim-surround
 git clone https://github.com/tpope/vim-surround ~/.vim/bundle/vim-surround
-
+# youcompleteme
+git clone https://github.com/valloric/youcompleteme ~/.vim/bundle/youcompleteme
+#####################
+# VIMRC
+#####################
+cat << _EOF_ > ~/.vimrc
+set tabstop=4
+set bg=dark
+set number
+syntax on
+au VimEnter *  NERDTree | wincmd p
+execute pathogen#infect()
+_EOF_
