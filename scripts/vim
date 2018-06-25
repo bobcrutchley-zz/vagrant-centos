@@ -19,7 +19,9 @@ git clone https://github.com/thecodesmith/vim-groovy ~/.vim/bundle/vim-groovy
 # vim-surround
 git clone https://github.com/tpope/vim-surround ~/.vim/bundle/vim-surround
 # youcompleteme
-git clone https://github.com/valloric/youcompleteme ~/.vim/bundle/youcompleteme
+# git clone https://github.com/valloric/youcompleteme ~/.vim/bundle/youcompleteme
+# fugitive
+git clone https://github.com/tpope/vim-fugitive ~/.vim/bundle/fugitive
 #####################
 # VIMRC
 #####################
