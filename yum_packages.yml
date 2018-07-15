@@ -21,4 +21,5 @@
 - file
 - python-setuptools
 - docker
+- net-tools
 ...
